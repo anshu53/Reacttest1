@@ -1,0 +1,43 @@
+Ans1 - State and Props- the state is like inbuilt object that contain data in a container. props are used to transfer the data from one component to another component.props are read only and state are read and write.
+
+Ans2 - there are mainly two types of components.
+a- class component 
+b- functional component
+
+Ans 3 -component life cycle stages-
+a- constructor()
+b- super()
+c- render()
+d- componentDidmount
+e- componentDidupdate
+f- componentshouldupdate
+g- componentDidunmount
+
+Ans 4 - useState hook return basically array with 2 value, first is variable and second is updated function.
+
+Ans 5 - context is like a global variable that contains data and when the data is required to like grandchild component from main (parent) component , it should be get from context. 
+context is introduced to remove prop drilling in react.
+
+Ans 6 - uni-directional data flow -  there are an existing UI, when the user click on any event, event should be triggered and there is a state which would be updated and once state updated react rerender the UI.
+
+Ans7 - when data transfer between two sibling child component to parent component.like from child to parent component.
+
+ Ans8 - state ={
+candidateName: "chintan"
+}
+// to get the value: "chintan",
+this.state.candidateName;
+
+Ans 9 - useEffect(callbackfunction, dependency array)
+a-   useEffect(()=>{
+   console.log("componentDidmount")
+         }).
+b -  useEffect(()=>{
+   console.log("componentDidupdate")
+         }[state,props]).
+
+Ans 10 -
+<input type="text" value={inputfield} onChange={handleChange />
+
+
+
